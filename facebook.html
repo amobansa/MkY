@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://mkynet.netlify.com/css/all.min.css">
+    <link rel="stylesheet" href="https://mkynet.netlify.com/css/style.css">
+</head>
+<body>
+  <header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class = "logo-text">MkY.net</a>
+        <a href="https://mkynet.netlify.com/home.html">HOME</a>
+        <a href="https://mkynet.netlify.com/lastest.html">LATEST</a>
+        <a href="https://mkynet.netlify.com/"about.html">ABOUT</a>
+      </div>
+    <ul>
+        <i  id="i" style="color: white; font-size: 40px; margin-right: 100px; margin-left: 0;" class="fas fa-bars" onclick="openNav()"></i>
+        <a href="https://mkynet.netlify.com/home.html"><li>HOME</li></a>
+        <a href="https://mkynet.netlify.com/lastest.html"><li>LATEST</li></a>
+        <a href="https://mkynet.netlify.com/about.html"><li>ABOUT</li></a>
+        <span>MkY.net</span>
+    </ul>
+
+</header>
+    <div class="page-content">
+        <img src="images/_108743144_adb566c0-93a5-42a0-b07d-60624cafbdcf.jpg" alt="" class="page-image">
+        <div class="page-text">
+          <p><strong>Apple's flagship iPhone 11 Pro tracks users' locations even when they have set it not to, a security researcher has discovered.</strong></p>
+          <p>Brian Krebs found that the phone collects data about a user's position even if location sharing has been turned off in every individual app.</p>
+          <p>However, the user could avoid being tracked if the entire system was set to never share location.</p>
+          <p>Apple said it was "expected behaviour" and denied it was a security problem.</p>
+          <p>The company has made big play of the fact that it allows users granular control over sharing their location - so for instance they can have location switched on for Maps but off for everything else.</p>
+          <p>Mr Krebs found users could disable all location services entirely via Settings>Privacy>Location Services, but if they chose the individual controls, they might still be tracked.</p>
+         <h1>'Expected behaviour'</h1>
+          <p>"One of the more curious behaviours of Apple's new iPhone 11 Pro is that it intermittently seeks the user's location information even when all applications and system services on the phone are individually set to never request this data," Mr Krebs wrote on his blog.</p>
+          <p>He contacted Apple to report the issue, sharing a video which showed the location services icon on, even though every app and system service was set to "never request" this information.</p>
+          <p>An engineer replied: "We do not see any actual security implications. It is expected behaviour that the locations services icon appears in the status bar when location services is enabled," adding that some system services "do not have a switch in Settings".</p>
+          <p>That, argued Mr Krebs "seems at odds with the company's own privacy policy".</p>
+          <p>In 2018, Google was found to be recording locations even when users had asked it not to.</p>
+          <p>In a report from Associated Press, a Princeton University researcher tracked his daily commute and found that Google saved location markers even though location history had been turned off.</p>
+          <p>To disable this entirely, users had to switch off another setting called Web and App Activity, which was enabled by default and did not mention location data.</p>
+        </div>
+    </div>
+    <footer>
+            <div class="icons">
+                    <a href="https://twitter.com"><i class="fab fa-twitter  media2"></i></a>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-f  media2"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram  media2"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin  media2"></i></a>
+            </div>
+            <div class="copyright">
+             <p>Copyright &copy:&#160; MkY Tech</p>
+            </div>
+          </footer>
+    <script src="js/script.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
